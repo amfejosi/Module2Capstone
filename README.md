@@ -26,5 +26,5 @@ This dataset contains information related to the Airbnb listings in bangkok. The
 - last_review: The date of the last/newest review.
 - reviews_per_month: The average number of reviews per month.
 - calculated_host_listings_count: The number of listings the host has in the current scape in the city/region geography.
-- availability_365: availability_x. The calnedar determines the avaulability of the listings x days in the future.
+- availability_365: availability_x. The calendar determines the availability of the listings x days in the future.
 - number_of_reviews_ltm: The number of reviews the listing has (in the last 12 months)

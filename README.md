@@ -1,6 +1,5 @@
 # Module2Capstone
  
-## Main Topic:
-## Best Areas for AirBnb Investment in Bangkok
+## Main Topic: Best Areas for AirBnb Investment in Bangkok
 <br>
-Analysing which areas have the highest revenue potential based on 
+Analysing which areas have the highest revenue potential based on room type, price, occupancy rates, and number of reviews

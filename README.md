@@ -1,17 +1,18 @@
 # Module2Capstone
  
-## Main Topic: Price Reccommendation for Airbnb Investment in Bangkok
+## Main Topic: Bangkok Airbnb Insights - Smart Pricing Through Data
+Price Reccommendation for Airbnb Investment in Bangkok
 
 ### Introduction
 This capstone project for the Purwadhika Data Science Programme focuses on exploring data from start to finsih regarding Airbnb listings in Bangkok. The goal of this project is to apply the skills and knowledge regarding data cleaning, data analysis, and data storytelling gained during Module 2 in a practical case study, demonstrating my understanding of key concepts and usage of tools covered in the module.
 
 ### Problem Description
-Airbnb is looking to identify the most promising areas for investment in Bangkok based on key factors such as room type, pricing, occupancy rates, and number of reviews.
-This analysis will help Airbnb optimize its next marketing campaign to attract potential investors and encourage more listings in the most profitable areas of the city.
+Property owners are looking to identify the best fit pricing for their listings in Bangkok based on key factors as as region, room types, number of reviews, and booking activity.
+This analysis will help the property owners optimize their pricing strategy to maximise their profits
 
 ### Dataset
 This dataset contains information related to the Airbnb listings in bangkok. There is a total of 16 columns in the dataset.
-- id: Airbnb's unique identifier for thelisting.
+- id: Airbnb's unique identifier for the listing.
 - name: Name of the listing.
 - host_id:  Airbnb's unique identifier for the host/user.
 - host_name: Name of the host. Usually, just the firstname(s).

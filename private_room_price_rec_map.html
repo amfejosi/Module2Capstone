@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e5c3615b11895efc33ab215f1598841f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+     <h3 align="center" style="font-size:30px">
+     <b>Private Room Price Recommendation by Region in Bangkok</b></h3>
+    
+            <div class="folium-map" id="map_e5c3615b11895efc33ab215f1598841f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e5c3615b11895efc33ab215f1598841f = L.map(
+                "map_e5c3615b11895efc33ab215f1598841f",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 1,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_57156f9f30ab9f340070e70f78147920 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_57156f9f30ab9f340070e70f78147920.addTo(map_e5c3615b11895efc33ab215f1598841f);
+        
+    
+            map_e5c3615b11895efc33ab215f1598841f.fitBounds(
+                [[13.68714, 100.49455499999999], [13.79211, 100.62159000000001]],
+                {}
+            );
+        
+    
+            var marker_863e3e42ced21295d7200ca7e991d612 = L.marker(
+                [13.73651, 100.56355500000001],
+                {
+}
+            ).addTo(map_e5c3615b11895efc33ab215f1598841f);
+        
+    
+            var div_icon_c77aaf2990064dce0b7d8d4027aca0f1 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            font-size: 14pt;\n            background-color: white;\n            border: 1px solid gray;\n            padding: 3px;\n            border-radius: 5px;\n            box-shadow: 2px 2px 4px rgba(0,0,0,0.2);\n            \"\u003e\n            \ud83d\udccc: Central\u003cbr\u003e\n            \ud83d\udcb0: THB 1500\u003cbr\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [140, 40],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+            marker_863e3e42ced21295d7200ca7e991d612.setIcon(div_icon_c77aaf2990064dce0b7d8d4027aca0f1);
+        
+    
+                marker_863e3e42ced21295d7200ca7e991d612.setIcon(div_icon_c77aaf2990064dce0b7d8d4027aca0f1);
+            
+    
+            var marker_313cb9f5e980083569b2eaf81244b069 = L.marker(
+                [13.78211, 100.57749],
+                {
+}
+            ).addTo(map_e5c3615b11895efc33ab215f1598841f);
+        
+    
+            var div_icon_cc515cc84689f4f1fb7acc2f91dedee9 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            font-size: 14pt;\n            background-color: white;\n            border: 1px solid gray;\n            padding: 3px;\n            border-radius: 5px;\n            box-shadow: 2px 2px 4px rgba(0,0,0,0.2);\n            \"\u003e\n            \ud83d\udccc: Northeast\u003cbr\u003e\n            \ud83d\udcb0: THB 900\u003cbr\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [140, 40],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+            marker_313cb9f5e980083569b2eaf81244b069.setIcon(div_icon_cc515cc84689f4f1fb7acc2f91dedee9);
+        
+    
+                marker_313cb9f5e980083569b2eaf81244b069.setIcon(div_icon_cc515cc84689f4f1fb7acc2f91dedee9);
+            
+    
+            var marker_b1f34ee0d750e77e37a2802966c73a27 = L.marker(
+                [13.772175, 100.504555],
+                {
+}
+            ).addTo(map_e5c3615b11895efc33ab215f1598841f);
+        
+    
+            var div_icon_6b79471e46d468efe71d1e7ac888b82d = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            font-size: 14pt;\n            background-color: white;\n            border: 1px solid gray;\n            padding: 3px;\n            border-radius: 5px;\n            box-shadow: 2px 2px 4px rgba(0,0,0,0.2);\n            \"\u003e\n            \ud83d\udccc: Northwest\u003cbr\u003e\n            \ud83d\udcb0: THB 1214\u003cbr\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [140, 40],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+            marker_b1f34ee0d750e77e37a2802966c73a27.setIcon(div_icon_6b79471e46d468efe71d1e7ac888b82d);
+        
+    
+                marker_b1f34ee0d750e77e37a2802966c73a27.setIcon(div_icon_6b79471e46d468efe71d1e7ac888b82d);
+            
+    
+            var marker_b44263b44bb4c9ad6921165fa56cb116 = L.marker(
+                [13.69714, 100.61159],
+                {
+}
+            ).addTo(map_e5c3615b11895efc33ab215f1598841f);
+        
+    
+            var div_icon_1472926162dd4a868f3f682863db0b93 = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            font-size: 14pt;\n            background-color: white;\n            border: 1px solid gray;\n            padding: 3px;\n            border-radius: 5px;\n            box-shadow: 2px 2px 4px rgba(0,0,0,0.2);\n            \"\u003e\n            \ud83d\udccc: Southeast\u003cbr\u003e\n            \ud83d\udcb0: THB 929\u003cbr\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [140, 40],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+            marker_b44263b44bb4c9ad6921165fa56cb116.setIcon(div_icon_1472926162dd4a868f3f682863db0b93);
+        
+    
+                marker_b44263b44bb4c9ad6921165fa56cb116.setIcon(div_icon_1472926162dd4a868f3f682863db0b93);
+            
+    
+            var marker_226f206f750595c589e173a1ff22050d = L.marker(
+                [13.71937, 100.519045],
+                {
+}
+            ).addTo(map_e5c3615b11895efc33ab215f1598841f);
+        
+    
+            var div_icon_b3ab2aa5ff4421365f4c056eb2638d8f = L.divIcon({
+  "html": "\n        \u003cdiv style=\"\n            font-size: 14pt;\n            background-color: white;\n            border: 1px solid gray;\n            padding: 3px;\n            border-radius: 5px;\n            box-shadow: 2px 2px 4px rgba(0,0,0,0.2);\n            \"\u003e\n            \ud83d\udccc: Southwest\u003cbr\u003e\n            \ud83d\udcb0: THB 1200\u003cbr\u003e\n        \u003c/div\u003e\n        ",
+  "iconSize": [140, 40],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+            marker_226f206f750595c589e173a1ff22050d.setIcon(div_icon_b3ab2aa5ff4421365f4c056eb2638d8f);
+        
+    
+                marker_226f206f750595c589e173a1ff22050d.setIcon(div_icon_b3ab2aa5ff4421365f4c056eb2638d8f);
+            
+    
+            tile_layer_57156f9f30ab9f340070e70f78147920.addTo(map_e5c3615b11895efc33ab215f1598841f);
+        
+    
+                marker_863e3e42ced21295d7200ca7e991d612.setIcon(div_icon_c77aaf2990064dce0b7d8d4027aca0f1);
+            
+    
+                marker_313cb9f5e980083569b2eaf81244b069.setIcon(div_icon_cc515cc84689f4f1fb7acc2f91dedee9);
+            
+    
+                marker_b1f34ee0d750e77e37a2802966c73a27.setIcon(div_icon_6b79471e46d468efe71d1e7ac888b82d);
+            
+    
+                marker_b44263b44bb4c9ad6921165fa56cb116.setIcon(div_icon_1472926162dd4a868f3f682863db0b93);
+            
+    
+                marker_226f206f750595c589e173a1ff22050d.setIcon(div_icon_b3ab2aa5ff4421365f4c056eb2638d8f);
+            
+</script>
+</html>
